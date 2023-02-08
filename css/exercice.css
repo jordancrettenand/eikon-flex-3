@@ -22,8 +22,10 @@ flex-direction: row;
 .exercice-order-2 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.exercice-order-2 .element {
+  width: auto;
 
 }
 
@@ -35,7 +37,22 @@ flex-direction: row;
 
 
 /* 4. exercice-order-3 */
-
+.exercice-order-3 .container {
+  display: flex;
+  flex-direction: row;
+}
+.exercice-order-3 .element-green {
+  order: 10;
+}
+.exercice-order-3 .element-blue {
+  order: -10;
+}
+.exercice-order-3 .element-yellow {
+  order: 9;
+}
+.exercice-order-3 .element-pink {
+  order: 8;
+}
 
 /* 5. exercice-align-self-1*/
 
